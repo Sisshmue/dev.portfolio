@@ -1,0 +1,40 @@
+.homepage-container {
+  background-color: black;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-container {
+  height: 80vh;
+  width: 25%;
+  background-color: white;
+  border-radius: 20px;
+  position: sticky;
+  top: 90px;
+}
+
+.detail-container {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.detail-section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  min-height: 100vh; /* Each part takes up at least one full screen height */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers your content vertically in the section */
+  border-bottom: 1px solid #f0f0f0; /* Optional: subtle divider */
+}
