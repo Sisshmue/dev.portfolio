@@ -1,6 +1,7 @@
 import "./Homepage.css";
 import { Header } from "../components/Header";
-import { Element } from 'react-scroll';
+import { Element } from "react-scroll";
+import { Home } from "../components/Home";
 
 export function HomePage() {
   return (
@@ -11,9 +12,7 @@ export function HomePage() {
           <Header />
           <div className="detail-container">
             <Element name="home" className="section">
-              <section>
-                <h1>Home Content</h1>
-              </section>
+              <Home />
             </Element>
 
             <Element name="projects" className="section">

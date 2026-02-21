@@ -4,7 +4,7 @@
   min-height: 100vh;
   justify-content: center;
   align-items: start;
-  gap: 20px;
+  gap: 40px;
 }
 
 .contact-container {
@@ -18,7 +18,7 @@
 
 .detail-container {
   width: 100%;
-  background-color: white;
+  background-color: black;
   border-radius: 20px;
 }
 
@@ -30,11 +30,3 @@
   align-items: center;
 }
 
-section {
-  min-height: 100vh; /* Each part takes up at least one full screen height */
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Centers your content vertically in the section */
-  border-bottom: 1px solid #f0f0f0; /* Optional: subtle divider */
-}
