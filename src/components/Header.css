@@ -43,6 +43,19 @@
   transform: scale(1.2);
 }
 
-.header-link .work{
-    width: 24px;
+.header-link .work {
+  width: 24px;
+}
+
+@media (max-width: 480px) {
+  .link-container {
+    min-width: auto; /* Let it shrink */
+    gap: 10px; /* Tighter icons */
+    padding: 10px 15px;
+  }
+
+  .header-link-icon {
+    padding: 5px 10px; /* Smaller touch targets */
+    font-size: 1rem;
+  }
 }

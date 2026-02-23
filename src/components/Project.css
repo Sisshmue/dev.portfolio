@@ -78,9 +78,37 @@
   transform: scale(1.02);
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1120px) and (min-width: 951px){
   .project-card {
     flex-direction: column;
     align-items: flex-start;
   }
 }
+
+@media (max-width: 480px) {
+    .project-section-container {
+      padding: 0 20px;
+    }
+  
+    .project-card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .image-wrapper img {
+      width: 100%; /* Fill the card width */
+      height: auto;
+      max-width: 320px; /* Don't let it get too huge */
+    }
+  
+    .project-title-small {
+      font-size: 1.8rem;
+    }
+  
+    .project-description {
+      font-size: 1rem;
+      padding: 0 10px;
+    }
+  }
