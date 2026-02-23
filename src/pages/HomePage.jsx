@@ -4,12 +4,13 @@ import { Element } from "react-scroll";
 import { Home } from "../components/Home";
 import { Project } from "../components/Project";
 import { Contact } from "../components/contact/Contact";
+import { Experience } from "../components/experience/Experience";
 
 export function HomePage() {
   return (
     <>
       <div className="homepage-container">
-        <Contact/>
+        <Contact />
         <div className="detail-section">
           <Header />
           <div className="detail-container">
@@ -18,13 +19,11 @@ export function HomePage() {
             </Element>
 
             <Element name="projects" className="section">
-              <Project/>
+              <Project />
             </Element>
 
             <Element name="experience" className="section">
-              <section>
-                <h1>Experience Content</h1>
-              </section>
+              <Experience />
             </Element>
             <Element name="contact" className="section">
               <section>
