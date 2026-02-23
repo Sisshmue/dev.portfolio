@@ -4,7 +4,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 
-export function Contact() {
+export function Info() {
   return (
     <div className="contact-container">
       <div className="profile-image-wrapper">

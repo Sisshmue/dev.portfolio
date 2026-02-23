@@ -5,6 +5,7 @@ import { Home } from "../components/home/Home";
 import { Project } from "../components/project/Project";
 import { Info } from "../components/info/Info";
 import { Experience } from "../components/experience/Experience";
+import { Contact } from "../components/contact/Contact";
 
 export function HomePage() {
   return (
@@ -26,9 +27,7 @@ export function HomePage() {
               <Experience />
             </Element>
             <Element name="contact" className="section">
-              <section>
-                <h1>Experience Content</h1>
-              </section>
+              <Contact/>
             </Element>
           </div>
         </div>
