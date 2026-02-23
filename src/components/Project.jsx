@@ -31,7 +31,7 @@ export function Project() {
             <div className="project-content">
               <h2 className="project-title-small">Personalize Healthcare</h2>
               <p className="project-description">
-                A hospital system managing patient data and generating AI-approved recommendations.
+                A hospital system managing patient data and generating doctor-approved AI recommendations.
               </p>
               <button className="apple-button">See More</button>
             </div>
