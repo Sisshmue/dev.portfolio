@@ -1,64 +1,80 @@
 .project-section-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  min-height: 100vh;
-  padding: 0 60px;
-}
+    padding: 0px 60px;
+    background-color: black;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+  }
+  
 
-.hero-text,
-.project-title {
-  font-size: clamp(4rem, 10vw, 7rem);
-  line-height: 0.9;
-  font-weight: 800;
-  letter-spacing: -0.05em;
-  background: linear-gradient(180deg, #ffffff 0%, #a1a1a6 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 20px;
-  white-space: pre-line;
-  margin-top: 0px;
-  text-transform: uppercase;
-}
-
-.sub-text,
-.project-label {
-  font-size: 1.4rem;
-  color: #86868b;
-  max-width: 500px;
-  margin-bottom: 60px;
-  line-height: 1.5;
-}
-
-img {
-  width: 280px;
-  padding: 0px 10px 00px 0px;
-  border-radius: 20px;
-}
-
-.project-image {
-  display: flex;
-  padding-bottom: 20px;
-}
-
-.project-title {
-  font-size: 40px;
-}
-
-.project-label {
-  font-size: 1rem;
-}
-
-.project-context {
-  width: 500px;
-}
-
-.see-more-button {
-  background-color: #86868b;
-  color: white;
-  width: 100px;
-  height: 30px;
-  border-radius: 20px;
-  border: none;
-}
+  .project-card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-list:hover .project-card:not(:hover) {
+    opacity: 0.4;
+  }
+  
+  .image-wrapper {
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 0; 
+  }
+  
+  .image-wrapper img {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .project-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .project-content {
+    max-width: 500px;
+  }
+  
+  .project-title-small {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: white;
+    letter-spacing: -0.03em;
+  }
+  
+  .project-description {
+    font-size: 1.1rem;
+    color: #86868b;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  
+  .apple-button {
+    background: #0071e3; 
+    color: white;
+    padding: 8px 20px;
+    border-radius: 99px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .apple-button:hover {
+    background: #0077ed;
+    transform: scale(1.02);
+  }

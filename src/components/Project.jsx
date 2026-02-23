@@ -3,39 +3,40 @@ import sabai from "../assets/thumbnails/sabai_thumbnail.jpg";
 import phrs from "../assets/thumbnails/phrs_thumbnail.jpg";
 
 export function Project() {
-  return (
-    <div className="project-section-container">
-      <h1 className="hero-text">{`recent\nprojects`}</h1>
-      <p className="sub-text">
-        Gaining hands-on experiences by working on the real-world efficient
-        projects.
-      </p>
-      <div className="project-item-container">
-        <div className="sabai project-image">
-          <img src={sabai} alt="sabai" />
-          <div className="project-context">
-            <h2 className="project-title">Sabai Job</h2>
-            <p className="project-label">
-              The Job Hunting Platform for the Blue-collar job seekers in
-              Thailand.
-            </p>
-            <button className="see-more-button">See More</button>
+    return (
+      <div className="project-section-container">
+        <h1 className="hero-text">recent projects</h1>
+        <p className="sub-text">
+          Gaining hands-on experiences by working on real-world, efficient projects.
+        </p>
+  
+        <div className="project-list">
+          <div className="project-card">
+            <div className="image-wrapper">
+              <img src={sabai} alt="Sabai Job" />
+            </div>
+            <div className="project-content">
+              <h2 className="project-title-small">Sabai Job</h2>
+              <p className="project-description">
+                The Job Hunting Platform for Blue-collar job seekers in Thailand.
+              </p>
+              <button className="apple-button">See More</button>
+            </div>
           </div>
-        </div>
-        <div className="phrs project-image">
-          <img src={phrs} alt="phrs" />
-          <div className="project-context">
-            <h2 className="project-title">
-              Personalize Healthcare Recommendation System
-            </h2>
-            <p className="project-label">
-              The hospital system that can manage patients data and generate
-              personalised recommendations approved by the doctors.
-            </p>
-            <button className="see-more-button">See More</button>
+  
+          <div className="project-card">
+            <div className="image-wrapper">
+              <img src={phrs} alt="PHRS" />
+            </div>
+            <div className="project-content">
+              <h2 className="project-title-small">Personalize Healthcare</h2>
+              <p className="project-description">
+                A hospital system managing patient data and generating AI-approved recommendations.
+              </p>
+              <button className="apple-button">See More</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
