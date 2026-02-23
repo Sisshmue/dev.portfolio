@@ -25,7 +25,7 @@
   top: 0;
   width: 9px;
   height: 9px;
-  background-color: #ff5f1f; /* Your orange accent */
+  background-color: #ff5f1f; 
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(255, 95, 31, 0.5);
 }
@@ -46,7 +46,7 @@
 
 .exp-company {
   font-size: 1.2rem;
-  color: #ff5f1f; /* Accent color for the company name */
+  color: #ff5f1f; 
   font-weight: 600;
   margin-top: 4px;
 }

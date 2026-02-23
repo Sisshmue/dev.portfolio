@@ -1,7 +1,9 @@
+import './Experience.css'
+
 export function Experience() {
   return (
     <div className="experience-section-container">
-      <h1 className="hero-text">{`professional\njourney`}</h1>
+      <h1 className="hero-text">{`PROFESSIONl\nJOURNEY`}</h1>
       <p className="sub-text">
         Growing consistently by contributing to companies and communities.
       </p>
