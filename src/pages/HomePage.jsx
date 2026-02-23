@@ -10,6 +10,7 @@ import { Contact } from "../components/contact/Contact";
 export function HomePage() {
   return (
     <>
+      <title>Siss Hmue Aung </title>
       <div className="homepage-container">
         <Info />
         <div className="detail-section">
@@ -27,7 +28,7 @@ export function HomePage() {
               <Experience />
             </Element>
             <Element name="contact" className="section">
-              <Contact/>
+              <Contact />
             </Element>
           </div>
         </div>

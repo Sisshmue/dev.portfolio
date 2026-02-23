@@ -27,7 +27,7 @@ export function Home() {
           <p className="stat-label">{`UNIVERSITY\nGPA`}</p>
         </div>
         <div className="stat-card">
-          <h2 className="stat-value">+40</h2>
+          <h2 className="stat-value">+20</h2>
           <p className="stat-label">{`PERSONAL\nPROJECTS`}</p>
         </div>
       </div>

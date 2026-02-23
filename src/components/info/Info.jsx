@@ -18,9 +18,32 @@ export function Info() {
       </div>
 
       <div className="contact-buttons">
-        <AiOutlineLinkedin className="linkedin contact-button" />
-        <FaGithubSquare className="github contact-button" />
-        <FaWhatsappSquare className="whatsapp contact-button" />
+        <a
+          href="https://www.linkedin.com/in/siss-hmue-aung-313a79167/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <AiOutlineLinkedin className="linkedin contact-button" />
+        </a>
+
+        <a
+          href="https://github.com/Sisshmue"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <FaGithubSquare className="github contact-button" />
+        </a>
+
+        <a
+          href="https://wa.me/+66658022587"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+        >
+          <FaWhatsappSquare className="whatsapp contact-button" />
+        </a>
       </div>
     </div>
   );

@@ -23,7 +23,15 @@ export function Project() {
             <p className="project-description">
               The Job Hunting Platform for Blue-collar job seekers in Thailand.
             </p>
-            <button className="apple-button">See More</button>
+            <a
+              href="https://sabaijob.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="apple-button"
+              style={{ textDecoration: "none", display: "inline-block" }}
+            >
+              See More
+            </a>
           </div>
         </div>
 
@@ -37,7 +45,15 @@ export function Project() {
               A hospital system managing patient data and generating
               doctor-approved AI recommendations.
             </p>
-            <button className="apple-button">See More</button>
+            <a
+              href="https://github.com/Techies-SE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="apple-button"
+              style={{ textDecoration: "none", display: "inline-block" }}
+            >
+              See More
+            </a>
           </div>
         </div>
 
@@ -50,7 +66,15 @@ export function Project() {
             <p className="project-description">
               Ultimate Tic-Tac-Toe game with JAVA Spring boot.
             </p>
-            <button className="apple-button">See More</button>
+            <a
+              href="https://github.com/maefahluang-uni/99-project-ultimatetictactoe_group2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="apple-button"
+              style={{ textDecoration: "none", display: "inline-block" }}
+            >
+              See More
+            </a>
           </div>
         </div>
 
