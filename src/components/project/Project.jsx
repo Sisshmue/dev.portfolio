@@ -1,8 +1,8 @@
 import "./Project.css";
-import scp from "../assets/thumbnails/smart_campus.jpg";
-import phrs from "../assets/thumbnails/phrs_thumbnail.jpg";
-import uttt from "../assets/thumbnails/ultimate_ttt.jpg";
-import sabai from "../assets/thumbnails/sabai_thumbnail.jpg";
+import scp from "../../assets/thumbnails/smart_campus.jpg";
+import phrs from "../../assets/thumbnails/phrs_thumbnail.jpg";
+import uttt from "../../assets/thumbnails/ultimate_ttt.jpg";
+import sabai from "../../assets/thumbnails/sabai_thumbnail.jpg";
 
 export function Project() {
   return (

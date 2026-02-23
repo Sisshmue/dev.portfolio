@@ -1,8 +1,8 @@
 import "./Homepage.css";
-import { Header } from "../components/Header";
+import { Header } from "../components/header/Header";
 import { Element } from "react-scroll";
-import { Home } from "../components/Home";
-import { Project } from "../components/Project";
+import { Home } from "../components/home/Home";
+import { Project } from "../components/project/Project";
 import { Contact } from "../components/contact/Contact";
 import { Experience } from "../components/experience/Experience";
 
