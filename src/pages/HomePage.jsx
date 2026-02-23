@@ -3,12 +3,13 @@ import { Header } from "../components/Header";
 import { Element } from "react-scroll";
 import { Home } from "../components/Home";
 import { Project } from "../components/Project";
+import { Contact } from "../components/contact/Contact";
 
 export function HomePage() {
   return (
     <>
       <div className="homepage-container">
-        <div className="contact-container"></div>
+        <Contact/>
         <div className="detail-section">
           <Header />
           <div className="detail-container">

@@ -7,15 +7,6 @@
   gap: 40px;
 }
 
-.contact-container {
-  height: 80vh;
-  width: 300px;
-  background-color: white;
-  border-radius: 20px;
-  position: sticky;
-  top: 90px;
-}
-
 .detail-container {
   width: 100%;
   background-color: black;
@@ -34,12 +25,6 @@
   .homepage-container {
     flex-direction: column;
     align-items: center;
-  }
-
-  .contact-container {
-    position: relative;
-    width: 90%;
-    top: 20px;
   }
 
   .detail-section {
