@@ -3,14 +3,14 @@ import { Header } from "../components/header/Header";
 import { Element } from "react-scroll";
 import { Home } from "../components/home/Home";
 import { Project } from "../components/project/Project";
-import { Contact } from "../components/contact/Contact";
+import { Info } from "../components/info/Info";
 import { Experience } from "../components/experience/Experience";
 
 export function HomePage() {
   return (
     <>
       <div className="homepage-container">
-        <Contact />
+        <Info />
         <div className="detail-section">
           <Header />
           <div className="detail-container">

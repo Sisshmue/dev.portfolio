@@ -1,4 +1,4 @@
-import "./Contact.css";
+import "./Info.css";
 import Profile from "../../assets/info/moving_profile.gif";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
