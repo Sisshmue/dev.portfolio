@@ -33,7 +33,7 @@ export function Contact() {
         setTimeout(() => setStatus("Send Message"), 1000);
       })
       .catch((e) => {
-        console.log("FAILED...", err);
+        console.log("FAILED...", e);
         setStatus("Error! Try again.");
       });
   };

@@ -1,5 +1,6 @@
 import "./Info.css";
 import Profile from "../../assets/info/moving_profile.gif";
+import ProfilePic from "../../assets/info/mesolo.jpg";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
@@ -8,7 +9,7 @@ export function Info() {
   return (
     <div className="contact-container">
       <div className="profile-image-wrapper">
-        <img src={Profile} alt="Profile" className="profile-image" />
+        <img src={ProfilePic} alt="Profile" className="profile-image" />
       </div>
 
       <div className="info-container">
