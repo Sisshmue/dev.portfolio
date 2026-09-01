@@ -1,62 +1,116 @@
 .experience-section-container {
-  padding: 80px 60px;
+  padding: 0 0 60px 60px;
   background-color: black;
 }
 
 .experience-timeline {
   display: flex;
   flex-direction: column;
-  gap: 60px;
-  margin-top: 40px;
+  gap: 40px;
+  margin-top: 30px;
   max-width: 900px;
 }
 
 .exp-item {
   position: relative;
-  padding-left: 30px;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 24px 28px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  transition: all 0.3s ease;
 }
 
-/* The dot on the timeline */
-.exp-item::before {
-  content: "";
-  position: absolute;
-  left: -5px;
-  top: 0;
-  width: 9px;
-  height: 9px;
-  background-color: #ff5f1f; 
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(255, 95, 31, 0.5);
+.exp-item:hover {
+  background: rgba(255, 255, 255, 0.045);
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Featured current role (Revelio) */
+.exp-item-featured {
+  background: linear-gradient(135deg, rgba(255, 95, 31, 0.08) 0%, rgba(20, 20, 24, 0.6) 100%);
+  border: 1.5px solid rgba(255, 95, 31, 0.45);
+  box-shadow: 0 8px 30px rgba(255, 95, 31, 0.08);
+}
+
+.exp-item-featured:hover {
+  border-color: #ff5f1f;
+  box-shadow: 0 12px 35px rgba(255, 95, 31, 0.15);
+}
+
+.exp-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  background: #ff5f1f;
+  padding: 4px 12px;
+  border-radius: 99px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
 }
 
 .exp-header {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px;
 }
 
 .exp-title {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   font-weight: 800;
   color: white;
   margin: 0;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 
 .exp-company {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: #ff5f1f; 
-  font-weight: 600;
-  margin-top: 4px;
+  font-weight: 700;
+}
+
+.exp-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: #86868b;
+  font-weight: 500;
 }
 
 .exp-date {
-  font-size: 0.9rem;
-  color: #86868b;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-top: 8px;
+  letter-spacing: 0.05em;
+}
+
+.exp-location {
+  color: #a1a1a6;
+}
+
+.exp-tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.exp-tech-tags span {
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #d1d1d6;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-weight: 500;
 }
 
 .exp-details {
@@ -67,26 +121,35 @@
 
 .exp-details li {
   color: #a1a1a6;
-  font-size: 1.05rem;
+  font-size: 0.98rem;
   line-height: 1.6;
-  margin-bottom: 12px;
-  max-width: 700px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
 }
 
-/* Custom bullet for the list items */
+.exp-details li:last-child {
+  margin-bottom: 0;
+}
+
 .exp-details li::before {
-  content: "→";
-  color: #434344;
-  margin-right: 12px;
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #ff5f1f;
   font-weight: bold;
 }
 
-/* Responsiveness */
 @media (max-width: 768px) {
-  .exp-title {
-    font-size: 1.6rem;
-  }
   .experience-section-container {
-    padding: 40px 20px;
+    padding: 0 20px 40px 20px;
+  }
+
+  .exp-title {
+    font-size: 1.35rem;
+  }
+
+  .exp-item {
+    padding: 20px 18px;
   }
 }
