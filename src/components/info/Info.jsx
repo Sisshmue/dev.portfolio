@@ -1,5 +1,4 @@
 import "./Info.css";
-import Profile from "../../assets/info/moving_profile.gif";
 import ProfilePic from "../../assets/info/pp.jpg";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
@@ -9,13 +8,20 @@ export function Info() {
   return (
     <div className="contact-container">
       <div className="profile-image-wrapper">
-        <img src={ProfilePic} alt="Profile" className="profile-image" />
+        <img src={ProfilePic} alt="Siss Hmue Aung" className="profile-image" />
       </div>
 
       <div className="info-container">
         <h2 className="name-text">Siss Hmue Aung</h2>
+        <p className="bio-text">Software Engineer</p>
+        <p className="sub-bio-text">Mobile • Web • Backend</p>
+      </div>
 
-        <p className="bio-text">Fullstack / Mobile Dev</p>
+      <div className="core-stack-preview">
+        <span className="stack-badge">Flutter</span>
+        <span className="stack-badge">Laravel</span>
+        <span className="stack-badge">Node.js</span>
+        <span className="stack-badge">TypeScript</span>
       </div>
 
       <div className="contact-buttons">
