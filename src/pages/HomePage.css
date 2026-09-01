@@ -4,9 +4,9 @@
   min-height: 100vh;
   justify-content: center;
   align-items: flex-start;
-  gap: 30px;
-  padding: 40px 20px;
-  max-width: 1350px;
+  gap: 40px;
+  padding: 40px 24px;
+  max-width: 1280px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -14,8 +14,9 @@
 .detail-section {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  max-width: 880px;
   width: 100%;
-  max-width: 950px;
   justify-content: flex-start;
   align-items: stretch;
 }
@@ -25,7 +26,7 @@
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
 }
 
 .section {
@@ -36,21 +37,22 @@
   .homepage-container {
     flex-direction: column;
     align-items: center;
-    padding: 20px 15px;
-    gap: 20px;
+    padding: 20px 16px;
+    gap: 30px;
   }
 
   .detail-section {
     width: 100%;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 480px) {
   .homepage-container {
-    padding: 10px;
+    padding: 12px;
   }
 
   .detail-container {
-    gap: 30px;
+    gap: 40px;
   }
 }

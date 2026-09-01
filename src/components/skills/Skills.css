@@ -1,14 +1,14 @@
 .skills-section-container {
-  padding: 0 0 60px 60px;
-  background-color: black;
+  padding: 0;
+  background-color: transparent;
 }
 
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  max-width: 900px;
-  margin-top: 30px;
+  width: 100%;
+  margin-top: 24px;
 }
 
 .skill-category-card {
@@ -69,7 +69,6 @@
   border-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Featured / Primary Skill Tags */
 .skill-tag.primary-skill {
   background: rgba(255, 95, 31, 0.12);
   color: #ffffff;
@@ -84,10 +83,6 @@
 }
 
 @media (max-width: 768px) {
-  .skills-section-container {
-    padding: 0 20px 40px 20px;
-  }
-
   .skills-grid {
     grid-template-columns: 1fr;
   }

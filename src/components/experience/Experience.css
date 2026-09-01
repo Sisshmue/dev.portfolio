@@ -1,14 +1,14 @@
 .experience-section-container {
-  padding: 0 0 60px 60px;
-  background-color: black;
+  padding: 0;
+  background-color: transparent;
 }
 
 .experience-timeline {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  margin-top: 30px;
-  max-width: 900px;
+  gap: 30px;
+  margin-top: 24px;
+  width: 100%;
 }
 
 .exp-item {
@@ -26,7 +26,6 @@
   transform: translateY(-2px);
 }
 
-/* Featured current role (Revelio) */
 .exp-item-featured {
   background: linear-gradient(135deg, rgba(255, 95, 31, 0.08) 0%, rgba(20, 20, 24, 0.6) 100%);
   border: 1.5px solid rgba(255, 95, 31, 0.45);
@@ -141,10 +140,6 @@
 }
 
 @media (max-width: 768px) {
-  .experience-section-container {
-    padding: 0 20px 40px 20px;
-  }
-
   .exp-title {
     font-size: 1.35rem;
   }
