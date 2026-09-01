@@ -14,7 +14,7 @@ export function Home() {
           <p className="stat-label">{`YEARS OF\nExperience`}</p>
         </div>
         <div className="stat-card">
-          <h2 className="stat-value">3.92</h2>
+          <h2 className="stat-value">3.93</h2>
           <p className="stat-label">{`UNIVERSITY\nGPA`}</p>
         </div>
         <div className="stat-card">

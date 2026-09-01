@@ -1,6 +1,6 @@
 import "./Info.css";
 import Profile from "../../assets/info/moving_profile.gif";
-import ProfilePic from "../../assets/info/mesolo.jpg";
+import ProfilePic from "../../assets/info/pp.jpg";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
