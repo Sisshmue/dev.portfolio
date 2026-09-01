@@ -3,21 +3,30 @@ import "./Home.css";
 export function Home() {
   const featuredTech = [
     "Flutter",
-    "Laravel",
+    "React.js",
     "Node.js",
-    "TypeScript",
+    "Javascript",
+    "Python",
     "REST APIs",
     "PostgreSQL",
     "MySQL",
-    "Git / GitHub"
+    "Git / GitHub",
+    "Docker",
+    "CI/CD",
+    "Firebase",
+    "Supabase",
+    "AWS",
+    "Clean Architecture",
+    "Database Design",
+    "Generative AI"
   ];
 
   return (
     <div className="home-section-container">
       <h1 className="hero-text">{`SOFTWARE\nENGINEER`}</h1>
-      
+
       <p className="sub-text">
-        Software Engineer with professional experience developing production mobile, web, and backend applications. Specializing in high-performance <strong>Flutter</strong> mobile apps, robust <strong>Laravel</strong> &amp; <strong>Node.js</strong> backends, and responsive <strong>TypeScript</strong> systems with REST APIs and database engineering.
+        Software Engineer with professional experience developing production mobile, web, and backend applications. Specializing in high-performance <strong>Flutter</strong> mobile apps, robust <strong>Node.js</strong> &amp; <strong>Express.js</strong> backends, and responsive <strong>Javascript</strong> systems with REST APIs and database engineering.
       </p>
 
       <div className="hero-tech-chips">

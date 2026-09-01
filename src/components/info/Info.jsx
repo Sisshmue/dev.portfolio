@@ -17,13 +17,6 @@ export function Info() {
         <p className="sub-bio-text">Mobile • Web • Backend</p>
       </div>
 
-      <div className="core-stack-preview">
-        <span className="stack-badge">Flutter</span>
-        <span className="stack-badge">Laravel</span>
-        <span className="stack-badge">Node.js</span>
-        <span className="stack-badge">TypeScript</span>
-      </div>
-
       <div className="contact-buttons">
         <a
           href="https://www.linkedin.com/in/siss-hmue-aung-313a79167/"

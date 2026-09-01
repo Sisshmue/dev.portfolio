@@ -8,8 +8,8 @@ export function Skills() {
       icon: <FaCode className="category-icon" />,
       skills: [
         { name: "Dart", isPrimary: true },
-        { name: "TypeScript", isPrimary: true },
-        { name: "JavaScript", isPrimary: false },
+        { name: "TypeScript", isPrimary: false },
+        { name: "JavaScript", isPrimary: true },
         { name: "Python", isPrimary: false },
         { name: "Java", isPrimary: false },
         { name: "Kotlin", isPrimary: false },
@@ -21,10 +21,10 @@ export function Skills() {
       icon: <FaMobileAlt className="category-icon" />,
       skills: [
         { name: "Flutter", isPrimary: true },
-        { name: "React.js", isPrimary: false },
-        { name: "TypeScript", isPrimary: true },
-        { name: "HTML", isPrimary: false },
-        { name: "CSS", isPrimary: false }
+        { name: "React.js", isPrimary: true },
+        { name: "TypeScript", isPrimary: false },
+        { name: "HTML", isPrimary: true },
+        { name: "CSS", isPrimary: true }
       ]
     },
     {
@@ -32,8 +32,8 @@ export function Skills() {
       icon: <FaServer className="category-icon" />,
       skills: [
         { name: "Node.js", isPrimary: true },
-        { name: "Express.js", isPrimary: false },
-        { name: "Laravel", isPrimary: true },
+        { name: "Express.js", isPrimary: true },
+        { name: "Laravel", isPrimary: false },
         { name: "REST APIs", isPrimary: true }
       ]
     },
@@ -60,7 +60,7 @@ export function Skills() {
       title: "Cloud & Services",
       icon: <FaCloud className="category-icon" />,
       skills: [
-        { name: "Firebase", isPrimary: false },
+        { name: "Firebase", isPrimary: true },
         { name: "Supabase", isPrimary: false },
         { name: "AWS (Basic)", isPrimary: false }
       ]
@@ -69,10 +69,10 @@ export function Skills() {
       title: "Software Engineering",
       icon: <FaCogs className="category-icon" />,
       skills: [
-        { name: "OOP", isPrimary: false },
-        { name: "Clean Architecture", isPrimary: false },
+        { name: "OOP", isPrimary: true },
+        { name: "Clean Architecture", isPrimary: true },
         { name: "API Integration", isPrimary: true },
-        { name: "Database Design", isPrimary: false },
+        { name: "Database Design", isPrimary: true },
         { name: "Debugging", isPrimary: true }
       ]
     },
@@ -80,10 +80,10 @@ export function Skills() {
       title: "AI & Machine Learning",
       icon: <FaBrain className="category-icon" />,
       skills: [
-        { name: "Generative AI", isPrimary: false },
+        { name: "Generative AI", isPrimary: true },
         { name: "Machine Learning", isPrimary: false },
         { name: "Prompt Engineering", isPrimary: false },
-        { name: "Recommendation Systems", isPrimary: false }
+        { name: "Recommendation Systems", isPrimary: true }
       ]
     }
   ];
