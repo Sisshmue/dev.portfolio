@@ -1,16 +1,17 @@
-import "./Homepage.css";
+import "./HomePage.css";
 import { Header } from "../components/header/Header";
 import { Element } from "react-scroll";
 import { Home } from "../components/home/Home";
+import { Skills } from "../components/skills/Skills";
+import { Experience } from "../components/experience/Experience";
 import { Project } from "../components/project/Project";
 import { Info } from "../components/info/Info";
-import { Experience } from "../components/experience/Experience";
 import { Contact } from "../components/contact/Contact";
 
 export function HomePage() {
   return (
     <>
-      <title>Siss Hmue Aung </title>
+      <title>Siss Hmue Aung | Software Engineer</title>
       <div className="homepage-container">
         <Info />
         <div className="detail-section">
@@ -20,13 +21,18 @@ export function HomePage() {
               <Home />
             </Element>
 
-            <Element name="projects" className="section">
-              <Project />
+            <Element name="skills" className="section">
+              <Skills />
             </Element>
 
             <Element name="experience" className="section">
               <Experience />
             </Element>
+
+            <Element name="projects" className="section">
+              <Project />
+            </Element>
+
             <Element name="contact" className="section">
               <Contact />
             </Element>

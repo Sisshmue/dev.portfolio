@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-regular-svg-icons";
 import { Link as ScrollLink } from "react-scroll";
 import { MdOutlineWorkOutline } from "react-icons/md";
+import { FaCode } from "react-icons/fa";
 
 export function Header() {
   return (
@@ -20,19 +21,23 @@ export function Header() {
           duration={500}
           className="header-link"
           activeClass="active"
+          aria-label="Home"
+          title="Home"
         >
           <FontAwesomeIcon className="header-link-icon" icon={faHouse} />
         </ScrollLink>
         <ScrollLink
-          to="projects"
+          to="skills"
           spy={true}
           smooth={true}
           offset={-100}
           duration={500}
           className="header-link"
           activeClass="active"
+          aria-label="Skills"
+          title="Skills"
         >
-          <FontAwesomeIcon className="header-link-icon" icon={faFolder} />
+          <FaCode className="header-link-icon work" />
         </ScrollLink>
         <ScrollLink
           to="experience"
@@ -42,8 +47,23 @@ export function Header() {
           duration={500}
           className="header-link"
           activeClass="active"
+          aria-label="Experience"
+          title="Experience"
         >
           <MdOutlineWorkOutline className="header-link-icon work" />
+        </ScrollLink>
+        <ScrollLink
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="header-link"
+          activeClass="active"
+          aria-label="Projects"
+          title="Projects"
+        >
+          <FontAwesomeIcon className="header-link-icon" icon={faFolder} />
         </ScrollLink>
         <ScrollLink
           to="contact"
@@ -53,6 +73,8 @@ export function Header() {
           duration={500}
           className="header-link"
           activeClass="active"
+          aria-label="Contact"
+          title="Contact"
         >
           <FontAwesomeIcon className="header-link-icon" icon={faEnvelope} />
         </ScrollLink>
